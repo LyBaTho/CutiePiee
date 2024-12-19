@@ -124,7 +124,7 @@ h3{font-family: 'Playfair Display', cursive;font-size: 16px; margin-bottom: 20px
     line-height: 1.8; /* Increases line spacing for readability */
     font-size: 14px; /* Adjusts font size for clarity */
     color: #444; /* Matches the text color with the theme */
-    padding: 20px; /* Adds some space around the text block */
+    padding: 15px; /* Adds some space around the text block */
     background: rgba(255, 255, 255, 0.9); /* Slight white background for better contrast */
     border-radius: 10px; /* Rounds the corners of the text block */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a polished look */
