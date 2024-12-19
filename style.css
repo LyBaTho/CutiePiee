@@ -3,36 +3,36 @@
     height: 100vh;
     width: 100vw;
     color: #444;
-    background: #fecfd7;
+    background: #ff8fab;
     background-size: cover;
     text-align: center;
 }
 
 .love{
-	padding-top: 5%;
+    padding-top: 5%;
 }
 
 .no, .yes{
-	padding-top: 7%;
+    padding-top: 7%;
 }
 
 .opening{
-	padding-top: 1%;
+    padding-top: 2%;
 }
 
 .ending{
-	padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 
-h2{font-size: 24px; margin-bottom: 30px;}
-h3{font-size: 18px; margin-bottom: 20px;}
+h2{font-family: 'Playfair Display', cursive;font-size: 24px; margin-bottom: 30px;}
+h3{font-family: 'Playfair Display', cursive;font-size: 16px; margin-bottom: 20px;}
 
 .love .name1 {
-    color: #d640ed; /* Color for Truc Giang Dinh */
+    color: #7209b7; /* Color for Truc Giang Dinh */
 }
 
 .love .name2 {
-    color: #45e6f5; /* Color for Ba Tho */
+    color: #4361ee; /* Color for Ba Tho */
 }
 
 /* Style for the return button */
@@ -43,11 +43,12 @@ h3{font-size: 18px; margin-bottom: 20px;}
 }
 
 .return a {
+    font-family: 'Playfair Display', cursive;
     text-decoration: none;
-    color: #444; /* Fixed: Corrected syntax */
+    color: #b5838d; 
     background: #eee;
     padding: 10px 20px; /* Padding around the text */
-    border: 3px solid #4b4fdd; /* Border with a darker shade of purple */
+    border: 3px solid #6d6875;
     border-radius: 8px; /* Rounded corners */
     font-size: 18px; /* Larger font for visibility */
     font-weight: bold; /* Bold font */
@@ -55,7 +56,7 @@ h3{font-size: 18px; margin-bottom: 20px;}
 }
 
 .return a:hover {
-    background: #a29bfe; /* Lighter purple on hover */
+    background: #bde0fe;
     border-color: #6c5ce7; /* Border matches the original background */
     color: #444; /* Slightly darker text */
 }
@@ -68,11 +69,12 @@ h3{font-size: 18px; margin-bottom: 20px;}
 }
 
 .continue a {
+    font-family: 'Playfair Display', cursive;
     text-decoration: none;
-    color: #444; /* Fixed: Corrected syntax */
+    color: #b5838d; 
     background: #eee;
     padding: 10px 20px; /* Padding around the text */
-    border: 3px solid #4b4fdd; /* Border with a darker shade of purple */
+    border: 3px solid #6d6875;
     border-radius: 8px; /* Rounded corners */
     font-size: 18px; /* Larger font for visibility */
     font-weight: bold; /* Bold font */
@@ -80,28 +82,26 @@ h3{font-size: 18px; margin-bottom: 20px;}
 }
 
 .continue a:hover {
-    background: #a29bfe; /* Lighter purple on hover */
+    background: #bde0fe;
     border-color: #6c5ce7; /* Border matches the original background */
     color: #444; /* Slightly darker text */
 }
 
 .love a{text-decoration: none;
-		background: #eee;
-		padding: 5px;
-		margin: 5px 10px;
-		border: 3px solid #ddd;
-		border-radius: 10px;}
+        font-family: 'Playfair Display', cursive;
+        background: #eee;
+        padding: 5px;
+        margin: 5px 10px;
+        border: 3px solid #6d6875;
+        border-radius: 10px;}
 
-#no{color:darkred;}
-#yes{color:seagreen;}
-
-.heart-img{height: 35px;width:35px;
-	animation: heart 1.25s linear infinite;}
+.heart-img{height: 25px;width:25px;
+    animation: heart 1.25s linear infinite;}
 
 @keyframes heart{
-	0%{transform: scale(0.5);}
-	50%{transform: scale(0.95);}
-	100%{transform: scale(0.5);}
+    0%{transform: scale(0.5);}
+    50%{transform: scale(0.95);}
+    100%{transform: scale(0.5);}
 }
 
 .image-container {
@@ -117,6 +117,7 @@ h3{font-size: 18px; margin-bottom: 20px;}
 
 /* Confession text block styling */
 .confession {
+    font-family: 'Playfair Display', cursive;
     max-width: 1350px; /* Limits the width of the text block */
     margin: 0 auto; /* Centers the block horizontally */
     text-align: justify; /* Aligns the text neatly */
@@ -131,10 +132,10 @@ h3{font-size: 18px; margin-bottom: 20px;}
 
 /* Style for the ending h3 */
 .ending h3 {
-    margin-top: 40px; /* Pushes the h3 element further down */
-    font-size: 40px; /* Increases font size of "Thank you for being my Everything" */
+    margin-top: 30px; /* Pushes the h3 element further down */
+    font-size: 25px; /* Increases font size of "Thank you for being my Everything" */
     text-align: center; /* Ensures text is centered */
-    color: #d640ed; /* Optional: Adjust color to match the theme */
+    color: #7209b7; /* Optional: Adjust color to match the theme */
 }
 
 .ending h3 .neutral {
@@ -143,13 +144,13 @@ h3{font-size: 18px; margin-bottom: 20px;}
 
 /* Style for the word "I" */
 .highlight-i {
-    color: #45e6f5; /* Sets the color to light blue */
+    color: #4361ee; /* Sets the color to light blue */
     font-weight: bold; /* Optional: makes the text bold */
 }
 
 /* Style for "my Princess" */
 .highlight-princess {
-    color: #d640ed; /* Sets the color to purple */
+    color: #7209b7;
     font-weight: bold; /* Optional: makes the text bold */
 }
 
@@ -159,8 +160,9 @@ h3{font-size: 18px; margin-bottom: 20px;}
 }
 
 .video-button {
+    font-family: 'Playfair Display', cursive;
     text-decoration: none;
-    background-color: #4CAF50; /* Green background */
+    background-color: #2dc653; /* Green background */
     color: white;
     padding: 10px 20px;
     border: none;
