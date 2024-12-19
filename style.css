@@ -118,10 +118,10 @@ h3{font-family: 'Playfair Display', cursive;font-size: 16px; margin-bottom: 20px
 /* Confession text block styling */
 .confession {
     font-family: 'Playfair Display', cursive;
-    max-width: 1350px; /* Limits the width of the text block */
+    max-width: 1400px; /* Limits the width of the text block */
     margin: 0 auto; /* Centers the block horizontally */
     text-align: justify; /* Aligns the text neatly */
-    line-height: 1.8; /* Increases line spacing for readability */
+    line-height: 1.7; /* Increases line spacing for readability */
     font-size: 14px; /* Adjusts font size for clarity */
     color: #444; /* Matches the text color with the theme */
     padding: 15px; /* Adds some space around the text block */
