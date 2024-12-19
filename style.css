@@ -1,0 +1,177 @@
+*{padding: 0;margin: 0;}
+.container {
+    height: 100vh;
+    width: 100vw;
+    color: #444;
+    background: #fecfd7;
+    background-size: cover;
+    text-align: center;
+}
+
+.love{
+	padding-top: 5%;
+}
+
+.no, .yes{
+	padding-top: 7%;
+}
+
+.opening{
+	padding-top: 2%;
+}
+
+.ending{
+	padding-bottom: 5px;
+}
+
+h1{font-size: 20px; margin-bottom: 30px;}
+h2{font-size: 44px; margin-bottom: 30px;}
+h3{font-size: 40px; margin-bottom: 20px;}
+
+.love .name1 {
+    color: #d640ed; /* Color for Truc Giang Dinh */
+}
+
+.love .name2 {
+    color: #45e6f5; /* Color for Ba Tho */
+}
+
+/* Style for the return button */
+.return {
+    position: absolute; /* Allows precise positioning */
+    bottom: 20px; /* 20px from the bottom */
+    left: 20px; /* 20px from the left */
+}
+
+.return a {
+    text-decoration: none;
+    color: #444; /* Fixed: Corrected syntax */
+    background: #eee;
+    padding: 10px 20px; /* Padding around the text */
+    border: 3px solid #4b4fdd; /* Border with a darker shade of purple */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 18px; /* Larger font for visibility */
+    font-weight: bold; /* Bold font */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.return a:hover {
+    background: #a29bfe; /* Lighter purple on hover */
+    border-color: #6c5ce7; /* Border matches the original background */
+    color: #444; /* Slightly darker text */
+}
+
+/* Style for the continue button */
+.continue {
+    position: absolute; /* Allows precise positioning */
+    bottom: 20px; /* 20px from the bottom */
+    right: 20px; /* 20px from the right */
+}
+
+.continue a {
+    text-decoration: none;
+    color: #444; /* Fixed: Corrected syntax */
+    background: #eee;
+    padding: 10px 20px; /* Padding around the text */
+    border: 3px solid #4b4fdd; /* Border with a darker shade of purple */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 18px; /* Larger font for visibility */
+    font-weight: bold; /* Bold font */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.continue a:hover {
+    background: #a29bfe; /* Lighter purple on hover */
+    border-color: #6c5ce7; /* Border matches the original background */
+    color: #444; /* Slightly darker text */
+}
+
+.love a{text-decoration: none;
+		background: #eee;
+		padding: 5px;
+		margin: 5px 10px;
+		border: 3px solid #ddd;
+		border-radius: 10px;}
+
+#no{color:darkred;}
+#yes{color:seagreen;}
+
+.heart-img{height: 35px;width:35px;
+	animation: heart 1.25s linear infinite;}
+
+@keyframes heart{
+	0%{transform: scale(0.5);}
+	50%{transform: scale(0.95);}
+	100%{transform: scale(0.5);}
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+/* Confession text block styling */
+.confession {
+    max-width: 1350px; /* Limits the width of the text block */
+    margin: 0 auto; /* Centers the block horizontally */
+    text-align: justify; /* Aligns the text neatly */
+    line-height: 1.8; /* Increases line spacing for readability */
+    font-size: 14px; /* Adjusts font size for clarity */
+    color: #444; /* Matches the text color with the theme */
+    padding: 20px; /* Adds some space around the text block */
+    background: rgba(255, 255, 255, 0.9); /* Slight white background for better contrast */
+    border-radius: 10px; /* Rounds the corners of the text block */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a polished look */
+}
+
+/* Style for the ending h3 */
+.ending h3 {
+    margin-top: 40px; /* Pushes the h3 element further down */
+    font-size: 40px; /* Increases font size of "Thank you for being my Everything" */
+    text-align: center; /* Ensures text is centered */
+    color: #d640ed; /* Optional: Adjust color to match the theme */
+}
+
+.ending h3 .neutral {
+    color: #444; /* Overrides the inherited color from .ending h3 */
+}
+
+/* Style for the word "I" */
+.highlight-i {
+    color: #45e6f5; /* Sets the color to light blue */
+    font-weight: bold; /* Optional: makes the text bold */
+}
+
+/* Style for "my Princess" */
+.highlight-princess {
+    color: #d640ed; /* Sets the color to purple */
+    font-weight: bold; /* Optional: makes the text bold */
+}
+
+.video-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.video-button {
+    text-decoration: none;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.video-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
